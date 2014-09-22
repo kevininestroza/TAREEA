@@ -11,7 +11,9 @@ package tarea5;
  * @author yadira
  */
 public class ejercicio {
-   
+	  //Bueno esta tarea 5 me costo un poco junto cn mi compañero kevin ya que cuando corriamos el programa no nos tiraba nada solo 
+	  //unas letras en blanco haci que decidimos agregar una lineas de codigo para que ala hora de ejecutarlo nos pudiera mostrar 
+	  //los mensajes de cada uno de los incisos de la tarea.
 
     	//Devuelve el valor de mi_arreglo en la posicion [columna][fila]
 	static String obtenerValor(String mi_arreglo[][], int columna, int fila)
