@@ -14,7 +14,7 @@ public class ejercicio {
 	  //Bueno esta tarea 5 me costo un poco junto cn mi compañero kevin ya que cuando corriamos el programa no nos tiraba nada solo 
 	  //unas letras en blanco haci que decidimos agregar una lineas de codigo para que ala hora de ejecutarlo nos pudiera mostrar 
 	  //los mensajes de cada uno de los incisos de la tarea.
-
+         //soy kevin con esto obtenemos la posicion de la fila y la columna
     	//Devuelve el valor de mi_arreglo en la posicion [columna][fila]
 	static String obtenerValor(String mi_arreglo[][], int columna, int fila)
 	{
@@ -24,7 +24,7 @@ public class ejercicio {
                         mi_arreglo[columna][fila];
                 
 	}
-	
+	// soy kevin declaramos la variable columna luego creamos un ciclo para la cantidad de columnas y nos retornara la cantidad
 	//Devuelve la cantidad de columnas de mi_arreglo
 	static int obtenerCantidadColumnas(double mi_arreglo[][])
 	{
@@ -37,7 +37,7 @@ public class ejercicio {
             System.out.print("el numero de columnas es:"+columnas);
 		return -1;
 	}
-	
+	//soy kevin hacemos lo mismo que en lo anterior declaramos la variable fila y creamos un ciclo para que nos devuelva la cantidad
 	//Devuelve la cantidad de filas de mi_arreglo
 	static int obtenerCantidadFilas(double mi_arreglo[][])
 	{
@@ -47,7 +47,7 @@ public class ejercicio {
             System.out.print("el numero de filas es:"+filas);
 		return -1;
 	}
-	
+	// soy kevin con esto declaramos la variables filas y columnas hacemos los ciclos ponemos para obtener la cantidad de filas y columnas
 	//Devuelve la cantidad de elementos que puede alacenar mi_arreglo
 	static int obtenerCantidadElementos(double mi_arreglo[][])
 	{
@@ -79,7 +79,7 @@ public class ejercicio {
              System.out.print("suma es:"+sumelemt);
 		return -1;
 	}
-	
+	//soy kevin  en este ejercicion usamos el int declaramos variable luego con los ciclos for obtendremos el promedio de los elementos
 	//Devuelve el promedio de todos los elementos de mi_arreglo
 	static double promedioElementos(double mi_arreglo[][])
 	{
@@ -95,7 +95,7 @@ public class ejercicio {
              System.out.print("el promedio es:"+suma/contador);
 		return -1;
 	}
-	
+	//soy kevin en este hacemos los ciclos con los arreglos luego ponemos una condicion si existe el arreglo si existe o no nos devolvera true o false
 	//Devuelve verdadero si num esta en mi_arreglo, de lo contrario devuelve false
 	static boolean existe(double mi_arreglo[][], int num)
 	{
@@ -143,4 +143,4 @@ public class ejercicio {
 	}
 
 }
-
+//soy kevin trabaje con digna en esta tarea 5
